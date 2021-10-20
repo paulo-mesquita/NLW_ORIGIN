@@ -94,7 +94,10 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+
 }
+
+
 
 li:hover{
   box-shadow:0.02rem hsl(338deg 98%);
