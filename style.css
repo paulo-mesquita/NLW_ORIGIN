@@ -2,6 +2,27 @@
   margin: 0;
 }
 
+/*Start Pure CSS Gradient Background Animation */
+html {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #5161fb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*End Pure CSS Gradient Background Animation */
+
 html,
 body {
   --black: hsl(240, 6%, 13%);
@@ -21,16 +42,25 @@ main {
   background: url(images/background.svg);
   width: 375px;
   height: 812px;
+  box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
+  
 }
+
+/* main:hover{
+  -webkit-transform: perspective(600);
+  -webkit-transition: -webkit-transform 2s;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotateY(-180deg);
+} */
 
 .container {
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
   color: var(--grey);
 }
+
 
 .container a:hover{
   font-size: 1.06rem;
@@ -38,6 +68,7 @@ main {
   border-radius: 1.25rem;
   box-shadow:0 0.125rem 0.06rem hsl(338deg 98% 57%);
   transition: all .2s ease-in-out;
+  
 }
 
 .avatar {

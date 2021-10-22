@@ -11,11 +11,23 @@ function changeSocialMediaLinks() {
     const social = li.getAttribute('class')
 
     li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
-    //alert(li.children[0].href)
   }
-  //Alternativa para mudar href da tag <a> de github
-  document.getElementById('userGithub').href =
-    'https://github.com/paulo-mesquita'
 }
 
 changeSocialMediaLinks()
+
+function getGitHubProfileInfos() {
+  const url = `https://api.github.com/users/${LinksSocialMedia.github}`
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      userName.textContent = data.name
+      userBio.textContent = data.bio
+      userLink.href = data.html_url
+      UserImage.src = data.avatar_url
+      userLogin.textContent = data.login
+    })
+}
+
+getGitHubProfileInfos()
