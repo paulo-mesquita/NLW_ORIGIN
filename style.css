@@ -198,44 +198,6 @@ li:hover{
 
 }
 
-	/* estilos versão desktop */
-@media (min-width: 960px) {
-  
-  main {
-    background: url(images/background.svg) no-repeat center/cover;
-    width: 945px;
-    height: 742px;
-    box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
-
-  }
-  .container{
-    position: absolute;
-    font-size: 1.46rem;
-    top:-60px;
-    margin-left: 375px;
-
-
-  }
-  .hole {
-    background: #141313;
-    margin-left: 25.5rem;
-    margin-top: 1.5rem;
-    width: 130px;
-    height: 12px;
-
-  }
-
-  .tie {
-    margin-top: -45rem;
-    margin-left: 26.2rem;
-    z-index: 2;
-    width: 110px;
-    height: 750px;
-  
-  }
-
-}
-
 /* estilos versão Galaxy Fold e mobile mini */
 @media (max-width: 280px) {
 
