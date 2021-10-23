@@ -20,16 +20,16 @@
 </g>
 <defs>
 <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(278 99) rotate(90) scale(300)">
-<stop stop-color="#FFC323"/>
+<stop stop-color="#FF008E"/>
 <stop offset="1" stop-color="#121214" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(98 99) rotate(90) scale(300)">
-<stop stop-color="#FF3D6E"/>
+<stop stop-color="#183c3b"/>
 <stop offset="1" stop-color="#121214" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="paint2_linear" x1="-67.9497" y1="58.9385" x2="436.115" y2="232.357" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF008E"/>
-<stop offset="1" stop-color="#FFCD1E"/>
+<stop stop-color="#04B1A7"/>
+<stop offset="1" stop-color="#c03380"/>
 </linearGradient>
 <linearGradient id="paint3_linear" x1="95.1275" y1="217.565" x2="2.23833" y2="59.047" gradientUnits="userSpaceOnUse">
 <stop stop-color="#8257E5"/>

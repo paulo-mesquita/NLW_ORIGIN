@@ -36,22 +36,51 @@ body {
 body {
   display: grid;
   place-items: center;
+
 }
 
 main {
   background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  width: 345px;
+  height: 642px;
   box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
   
 }
 
-/* main:hover{
-  -webkit-transform: perspective(600);
-  -webkit-transition: -webkit-transform 2s;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: rotateY(-180deg);
-} */
+
+.badge {
+  position: absolute;
+  width: 358px;
+  height: 440px;
+  color: var(--grey);
+  border-radius: 7px;
+}
+
+.hole {
+  position: absolute;
+  background: #2e1928;
+  z-index: 1;
+  width: 100px;
+  height: 12px;
+  margin-left: 7.7rem;
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.tie {
+  position: absolute;
+  z-index: 2;
+  width: 80px;
+  height: 750px;
+  background: radial-gradient(#fff700, #18473ec9);
+  top: 0;
+  margin-top: -45rem;
+  margin-left: 8.4rem;
+  border-radius: 0 0 0.6rem 0.6rem;
+  box-shadow:0 0.125rem 7.06rem hsl(0deg 5% 10%);
+}
+
+
 
 .container {
   max-width: 250px;
@@ -133,5 +162,105 @@ ul {
 li:hover{
   box-shadow:0.02rem hsl(338deg 98%);
   transition: all .2s ease-in-out;
+  
+}
+
+	/* estilos versão tablet */
+@media (min-width: 720px) {
+  
+  main {
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 645px;
+    height: 642px;
+    box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
+    
+  }
+  .container{
+    position: absolute;
+    font-size: 1.26rem;
+    top:-110px;
+    margin-left: 227px;
+  
+  
+  }
+  .hole {
+    background: #141313;
+    margin-left: 17rem;
+    margin-top: 1.5rem;
+  
+  }
+  
+  .tie {
+    margin-top: -45rem;
+    margin-left: 17.6rem;
+   
+  }
+
+}
+
+	/* estilos versão desktop */
+@media (min-width: 960px) {
+  
+  main {
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 945px;
+    height: 742px;
+    box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
+
+  }
+  .container{
+    position: absolute;
+    font-size: 1.46rem;
+    top:-60px;
+    margin-left: 375px;
+
+
+  }
+  .hole {
+    background: #141313;
+    margin-left: 25.5rem;
+    margin-top: 1.5rem;
+    width: 130px;
+    height: 12px;
+
+  }
+
+  .tie {
+    margin-top: -45rem;
+    margin-left: 26.2rem;
+    z-index: 2;
+    width: 110px;
+    height: 750px;
+  
+  }
+
+}
+
+/* estilos versão Galaxy Fold e mobile mini */
+@media (max-width: 280px) {
+
+  main {
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 265px;
+    height: 542px;
+    box-shadow:0 0.125rem 2rem hsl(240deg 3% 11%);
+    
+  }
+  .container{
+    position: absolute;
+    font-size: 1.26rem;
+    top:-150px;
+    margin-left: 10px;
+  }
+  .hole {
+    margin-left: 5.5rem;
+    margin-top: 0.3rem;
+  }
+  
+  .tie {
+    margin-top: -46rem;
+    margin-left: 6rem;
+   
+  }
   
 }
