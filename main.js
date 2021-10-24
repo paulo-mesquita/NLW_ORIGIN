@@ -29,8 +29,3 @@ function getGitHubProfileInfos() {
       userLogin.textContent = data.login
     })
 }
-
-getGitHubProfileInfos()
-$('.theme-switch').on('click', () => {
-  $('body').toggleClass('light-theme')
-})
