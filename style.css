@@ -232,15 +232,14 @@ li:hover{
     margin: auto 45%;
   }
   .hole {
-    margin-left: 13.5rem;
+    margin-left: 58%;
     margin-top: 0.3rem;
-
   }
-
+  
   .tie {
-    margin-left: 14.1rem;
     margin-top: -46rem;
-
+    margin-left: 61%;
+   
   }
   main {
     background: url(images/background.svg) no-repeat center/cover;
