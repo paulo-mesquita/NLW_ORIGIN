@@ -31,6 +31,3 @@ function getGitHubProfileInfos() {
 }
 
 getGitHubProfileInfos()
-$('.theme-switch').on('click', () => {
-  $('body').toggleClass('light-theme')
-})
