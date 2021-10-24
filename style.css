@@ -229,22 +229,22 @@ li:hover{
 
 @media (min-width: 960px) {
   .container {
-    margin: auto 45%;
+    margin: auto 30%;
   }
   .hole {
-    margin-left: 13.5rem;
+    margin-left: 42%;
     margin-top: 0.3rem;
     
   }
   
   .tie {
-    margin-left: 14.1rem;
+    margin-left: 45%;
     margin-top: -46rem;
 
   }
   main {
     background: url(images/background.svg) no-repeat center/cover;
      opacity: .8;
-     width: 40%;
+     width: 30%;
   }
 }
