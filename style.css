@@ -227,9 +227,11 @@ li:hover{
   
 }
 
+
 @media (min-width: 960px) {
+
   .container {
-    margin: auto 45%;
+    margin-left: 160px;
   }
   .hole {
     margin-left: 58%;
@@ -247,3 +249,4 @@ li:hover{
      width: 40%;
   }
 }
+
