@@ -179,7 +179,7 @@ li:hover{
     position: absolute;
     font-size: 1.26rem;
     top:-110px;
-    margin-left: 227px;
+    margin-left: 217px;
   
   
   }
@@ -231,22 +231,20 @@ li:hover{
 @media (min-width: 960px) {
 
   .container {
-    margin-left: 160px;
+    margin-left: 9rem;
   }
   .hole {
-    margin-left: 58%;
+    margin-left: 56%;
     margin-top: 0.3rem;
   }
   
   .tie {
     margin-top: -46rem;
-    margin-left: 61%;
+    margin-left: 58%;
    
   }
   main {
-    background: url(images/background.svg) no-repeat center/cover;
-     opacity: .8;
-     width: 40%;
+     width: 30rem;
   }
 }
 
